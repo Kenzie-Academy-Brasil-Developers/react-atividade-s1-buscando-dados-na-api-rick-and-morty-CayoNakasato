@@ -1,0 +1,49 @@
+.cardCharacter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+  width: 15rem;
+}
+.characterName {
+  color: #1d6474;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  margin-top: 5px;
+}
+
+.cardImage {
+  width: 10rem;
+  height: 10rem;
+}
+
+.characterOrigin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  width: 10rem;
+  margin-top: 10px;
+
+  color: #18758a;
+}
+
+.alive{
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: green;
+}
+
+.dead{
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: red;
+}
